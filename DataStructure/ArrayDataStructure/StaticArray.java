@@ -2,11 +2,12 @@ package DataStructure.ArrayDataStructure;
 import java.util.Scanner;
 
 public class StaticArray {
+    // calling the Scanner
+    Scanner input =  new Scanner(System.in);
 
     // define the insert() methord
     public void insert(int[] arr){
-        // calling the Scanner
-        Scanner input = new Scanner(System.in);
+        
         for(int i=0;i<arr.length;i++){
             System.out.println("Enter the data at index "+i+" is:");
             int data = input.nextInt();
@@ -25,8 +26,6 @@ public class StaticArray {
 
     // define the Get() methord
     public void get(int[] arr){
-        // callling the Scanner
-        Scanner input = new Scanner(System.in);
         
         System.out.println("Enter the index of an array:");
         int index = input.nextInt();
@@ -41,9 +40,7 @@ public class StaticArray {
 
     // define the set methord
     public void set(int[] arr){
-        // calling the Scanner
-        Scanner input = new Scanner(System.in);
-        
+
         System.out.println("Enter the index of an array is:");
         int index = input.nextInt();
         if(index>=arr.length){
