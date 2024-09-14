@@ -168,6 +168,12 @@ public class SingleLinkedList {
                     if(count == 0){
                         head = null;
                     }
+                    else if(dup.next == null){
+                        for(int i=0;i<count-1;i++){
+                            dup1 =  dup1.next;
+                        }
+                        dup1.next = null;
+                    }
                     else{
                         for(int i=0;i<count-1;i++){
                             dup1 = dup1.next;
@@ -270,6 +276,9 @@ public class SingleLinkedList {
                     break;                        
             }
         } 
-        while(wish!=8&&wish>0);                     
+        while(wish!=8&&wish>0);   
+        
+        // close the Scanner
+        input.close();
     }
 }
