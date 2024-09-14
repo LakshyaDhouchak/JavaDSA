@@ -230,5 +230,7 @@ public class DoubleLinkedList {
             }
         }
         while(choice!=6&&choice>0);
+        // close the Scanner
+        input.close();
     }
 }
