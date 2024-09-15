@@ -3,10 +3,6 @@ Topics for Data Structure
 * LinkedList
 * Stack
 * Queue
-* Heap
 * Tree
 * Graph
-* Trie
-* Hashing
 * String
-* Set

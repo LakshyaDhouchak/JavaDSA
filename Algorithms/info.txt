@@ -1,0 +1,7 @@
+// topics of algorithms
+* Searching algorithms
+* Sorting algorithms
+* Dynamic Programing Algorithms
+* Recurtion
+* Backtracking Algorithms
+* Time and space complexity
